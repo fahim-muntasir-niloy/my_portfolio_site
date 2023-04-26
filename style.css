@@ -13,18 +13,30 @@ body{
 
 h1{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px 0;
 }
 
 h2{
 
-    font-size: 1rem;
+    font-size: 1.3rem;
 
     margin: 10px 0;
 }
-h3.time{
 
+#pub-1{
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    margin: 20px 0;
+}
+
+h3.author{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: .9rem;
+}
+
+h3.time{
     font-size: .9rem;
     margin: 10px 0;
 }
@@ -40,8 +52,9 @@ p{
     font-size: .9rem;
 }
 
+
 #exp-1{
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .4fr 1fr;
     margin: 20px 0;
 }
