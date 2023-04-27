@@ -7,9 +7,12 @@
 }
 
 body{
-    margin: 5rem 20rem;
+    margin: 5rem 10rem;
+    padding: 0 5em;
     font-family: "helvetica";
 }
+
+  
 
 h1{
     font-weight: 700;
@@ -20,7 +23,6 @@ h1{
 h2{
 
     font-size: 1.3rem;
-
     margin: 10px 0;
 }
 
@@ -29,11 +31,14 @@ h3.author{
     font-weight: 400;
     margin: 10px 0;
     font-size: .9rem;
+    color: slategray;
 }
 
 h3.time{
     font-size: .9rem;
     margin: 10px 0;
+    padding-right: 2rem;
+    text-align: right;
 }
 
 h3.post{
@@ -45,11 +50,62 @@ h3.post{
 p{
     margin: 0%;
     font-size: .9rem;
+    color: slategray;
 }
 
 
 #exp-1{
     display: grid;
-    grid-template-columns: .4fr 1fr;
+    grid-template-columns: .5fr 1fr;
     margin: 20px 0;
 }
+
+.link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0;
+}
+
+#featured{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      margin: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size:1rem;
+    }
+    h3{
+        font-size: .6rem;
+    }
+    p{
+        font-size: .8rem;
+    }
+    #exp-1{
+        display: grid;
+        grid-template-columns: 0 1fr;
+        margin: 20px 0;
+    }
+    .time{
+        display: none;
+    }
+
+    .link{
+        display: block;
+    }
+
+    #featured{
+        display: block;
+    }
+
+    .card{
+        margin: 20px 0;
+    }
+  }
