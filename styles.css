@@ -16,6 +16,11 @@ h1{
 }
 h2{
     font-family: 'Outfit';
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.content h4{
+    font-weight: 400;
 }
 
 .is-rounded{
@@ -34,4 +39,15 @@ h2{
 
 #side-panel{
     text-align: center;
+}
+
+
+/* publication page */
+
+#pub{
+    text-align: center;
+    padding-bottom: 2em;
+}
+#time{
+    text-align: left;
 }
