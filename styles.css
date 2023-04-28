@@ -51,3 +51,22 @@ h2{
 #time{
     text-align: left;
 }
+
+
+/* Work experience page */
+#jobs{
+    padding: 0 5em;
+}
+#job-bio{
+    margin: 5em 15em;
+}
+.line{
+    border-bottom: 1px solid #d8a28c;
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    #job-bio {
+      margin: 5em 1em;
+    }
+}
