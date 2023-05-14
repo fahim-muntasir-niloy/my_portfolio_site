@@ -85,6 +85,14 @@ h2{
     margin-bottom: 20px;
 }
 
+/* blogs */
+#blog_error{
+    text-align: center;
+    padding: 5em 20em;
+}
+
+
+
 @media only screen and (min-width: 768px) {
     /* CSS rules for large screens */
     .phone_menu {
@@ -111,5 +119,9 @@ h2{
     }
     #job-bio {
       margin: 5em 1em;
+    }
+    #blog_error{
+        text-align: center;
+        padding: 5em;
     }
 }
